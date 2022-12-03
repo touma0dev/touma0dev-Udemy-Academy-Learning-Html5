@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(61, 56, 56);
+    text-transform:uppercase;
+}
+.fix-width{
+    border: 1px solid rgb(61, 56, 56);
+    margin: 0 auto;
+    width: 1000px;
+    padding: 0px;
+
+}
+.align-item{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0px;
+}
+.navbar{
+    overflow: hidden;
+    background-color: rgb(109, 106, 106);
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+    margin:0px;
+    background-color:rgb(109, 106, 106) ;
+    padding: 15px 15px;
+}
+.hover a:hover{
+    background-color: rgba(77, 71, 71, 0.993);
+    color: rgb(218, 30, 30);
+}
+.navbar li{
+    list-style-type: none;
+    float:left;
+}
+.float {
+    float: right;
+    background-color: rgb(18, 19, 18);
+
+}
+.solid a{
+    background-color: rgb(77, 71, 71, 0.993); 
+}
+.solid a:hover{
+    background-color: rgb(77, 71, 71, 0.993);
+    color: rgb(218, 30, 30) ;
+}

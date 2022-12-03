@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{font-family: Arial, Helvetica, sans-serif;
+            
+    }
+    .border{
+    border: 1px solid red;
+    padding: 1;
+   }
+   .border:after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+    .box{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin: 5px;   
+             }
+    li{
+        list-style-type: none;
+        
+    }
+    ul{
+        background-color: brown;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+        position:relative;
+           
+        }
+    a{
+        text-decoration: none;
+        text-align: center;
+        float: left;
+        color: black;
+        padding: 16px 16px;
+
+    }
+    .float{
+        float: left;
+    }
+
+        </style>
+<body>
+    <div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div><br>
+    <div class="border">
+    <div class=" box float">S</div>    
+    <div class=" box float">S</div>    
+    <div class=" box float">S</div>    
+    <div class=" box float">S</div>    
+    <p> Some inline content. it will flow where space is available. Some inline content. it will flow where space is available</p>
+</div>
+<h1>Title</h1>
+</body>
+</html>
